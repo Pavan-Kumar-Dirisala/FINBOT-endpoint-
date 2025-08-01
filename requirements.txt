@@ -1,14 +1,10 @@
- "fastapi",
-    "python-multipart",
-    "uvicorn",
-    "PyMuPDF",
-    "faiss-cpu",
-    "numpy",
-    "python-dotenv",
-    "openai",
-    "sentence-transformers",
-    "markdown",
-    "aiofiles",  # often needed for file uploads in FastAPI
-    "httpx",     # OpenAI client depends on this
-    "starlette", # FastAPI dependency
-    "requests",  # fallback for many HTTP tasks
+fastapi
+uvicorn
+faiss-cpu
+numpy
+PyMuPDF
+python-dotenv
+openai
+sentence-transformers
+markdown
+python-multipart
